@@ -148,6 +148,12 @@ span.round-tab:hover {
 	font-style: italic;
 	font-weight: bold;
 }
+.Login1 {
+	text-align: left;
+	height: auto;
+	width: auto;
+}
+
 .QlikDD {
 	height: 300px;
 	width: 400px;
