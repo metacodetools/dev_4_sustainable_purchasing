@@ -20,7 +20,7 @@
                     <li role="presentation" class="active">
                         <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
                             <span class="round-tab">
-                                <i class="glyphicon glyphicon-folder-open"></i>
+                                1
                             </span>
                         </a>
                     </li>
@@ -28,58 +28,68 @@
                     <li role="presentation" class="disabled">
                         <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
                             <span class="round-tab">
-                                <i class="glyphicon glyphicon-pencil"></i>
+                                2
                             </span>
                         </a>
                     </li>
                     <li role="presentation" class="disabled">
                         <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Step 3">
                             <span class="round-tab">
-                                <i class="glyphicon glyphicon-picture"></i>
+                                3
                             </span>
                         </a>
                     </li>
 
                     <li role="presentation" class="disabled">
-                        <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Complete">
+                        <a href="#step4" data-toggle="tab" aria-controls="step4" role="tab" title="Step 4">
                             <span class="round-tab">
-                                <i class="glyphicon glyphicon-ok"></i>
+                                4
                             </span>
                         </a>
                     </li>
+                    
                 </ul>
             </div>
 
             <form role="form">
               <div class="tab-content">
                     <div class="tab-pane active" role="tabpanel" id="step1">
-                        <h3>Step 1</h3>
-                        <p>This is step 1</p>
+                        <h3>Business Category</h3>
+                        <p>Select your business category and hit "Save and Continue"</p>
+                        <p>What best describes your organization? </p>
+						<iframe src='https://qlikviz.epa.gov/single?appid=3bc4fd8f-371e-4dc5-b1b1-2605ff193c2a&obj=MLqXkp&select=clearall' class="QlikDD" style='border:none;'></iframe>
                         <ul class="list-inline pull-right">
-                            <li><button type="button" class="btn btn-primary next-step">Save and continue</button></li>
+                            <li><button type="button" class="btn btn-primary next-step">Continue</button></li>
                         </ul>
                     </div>
                     <div class="tab-pane" role="tabpanel" id="step2">
-                    <h3>Step 2</h3>
-                        <p>This is step 2</p>
+                    <h3>Impacts</h3>
+                        <p>These are your impacts</p>                       
+						<iframe src='https://qlikviz.epa.gov/single?appid=3bc4fd8f-371e-4dc5-b1b1-2605ff193c2a&obj=rGRMZG' class="QlikImpacts" style='border:none;'></iframe>
                         <ul class="list-inline pull-right">
                             <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-                            <li><button type="button" class="btn btn-primary next-step">Save and continue</button></li>
+                            <li><button type="button" class="btn btn-primary next-step">Continue</button></li>
                         </ul>
                     </div>
                     <div class="tab-pane" role="tabpanel" id="step3">
-                    <h3>Step 3</h3>
-                        <p>This is step 3</p>
+                    <h3>Scope</h3>
+                        <p>Impact Scope</p>
+                        <iframe src='https://qlikviz.epa.gov/single?appid=3bc4fd8f-371e-4dc5-b1b1-2605ff193c2a&obj=ckBAMC' class="QlikImpacts" style='border:none;'></iframe>
                         <ul class="list-inline pull-right">
-                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-                            <li><button type="button" class="btn btn-default next-step">Skip</button></li>
-                            <li><button type="button" class="btn btn-primary btn-info-full next-step">Save and continue</button></li>
+                        <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                            <li><button type="button" class="btn btn-primary btn-info-full next-step">Continue</button></li>
                         </ul>
                     </div>
-                    <div class="tab-pane" role="tabpanel" id="complete">
-                    <h3>Complete</h3>
-                        <p>You have successfully completed all steps.</p>
+                    
+                    <div class="tab-pane" role="tabpanel" id="step4">
+                    <h3>Purchases</h3>
+                        <p>Sources of purchased water</p>
+                        <iframe src='https://qlikviz.epa.gov/single?appid=3bc4fd8f-371e-4dc5-b1b1-2605ff193c2a&obj=MyNCeF' class="QlikImpacts" style='border:none;'></iframe>
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                        </ul>
                     </div>
+                    
                     <div class="clearfix"></div>
                 </div>
             </form>
